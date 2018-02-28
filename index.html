@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>ValeCharging</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+
+        <!-- load bootstrap and fontawesome via CDN -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"></script>
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.css"></script>   
+        
+        <!-- load google fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        <!-- load my own style -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/myStyle.css">
+        
+
+    </head>
+    <body ng-app="myApp">
+
+        <!-- MAIN CONTENT AND INJECTED VIEWS -->
+        <div>
+            
+            <!-- angular templating -->
+            <!-- this is where content will be injected -->
+            <!--
+            <div ng-view></div>
+            -->
+            <div ui-view=""></div>
+            
+        </div>
+        
+        
+        <!-- load jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        
+        
+        <!-- load angular -->
+        <script src="bower_components/lodash/dist/lodash.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="bower_components/angular-simple-logger/dist/angular-simple-logger.js"></script>
+        <script src="bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
+        
+        <!-- load bootstrap js -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        
+
+        
+        <!-- load my own js files -->
+        <script src="./app/app.module.js"></script>
+        <script src="./app/app.routes.js"></script>
+        <script src="./app/components/about/about.controller.js"></script>
+        <script src="./app/components/about/about.js"></script>
+        <script src="./app/components/blog/blog.controller.js"></script>
+        <script src="./app/components/blog/blog.js"></script>
+        <script src="./app/components/home/home.controller.js"></script>
+        <script src="./app/components/home/home.js"></script>
+        <script src="./app/components/navbar/navbar.controller.js"></script>
+    </body>
+</html>

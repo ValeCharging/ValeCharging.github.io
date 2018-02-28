@@ -1,0 +1,43 @@
+<!-- add navbar-->
+<div ng-include src="'app/components/navbar/navbar.html'"></div>
+
+<!-- home.html -->
+<div class="bg jumbotron text-center">
+    <h1>{{ title }}</h1>
+
+    <p>{{ slogan }}</p>
+    
+    <p>{{ contact_message }}</p>
+    <p>{{ contact_number }}</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 grid-item-container">
+          <img src="/assets/img/1.jpg" alt="Pick up car & key">
+
+          <div class="text-center">
+            <h2>{{ grid_item_title_1 }}</h2>
+            <p>{{ grid_item_message_1 }}</p>
+          </div>
+        </div>
+        <div class="col-sm-4 grid-item-container">
+          <img src="/assets/img/2.jpg" alt="Pick up car & key">
+
+          <div class="text-center">
+            <h2>{{ grid_item_title_2 }}</h2>
+            <p>{{ grid_item_message_2 }}</p>
+          </div>
+        </div>
+        <div class="col-sm-4 grid-item-container">
+          <img src="/assets/img/3.jpg" alt="Pick up car & key">
+
+          <div class="text-center">
+            <h2>{{ grid_item_title_3 }}</h2>
+            <p>{{ grid_item_message_3 }}</p>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer"></div>
