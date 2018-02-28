@@ -1,12 +1,12 @@
 {
-  "name": "huangsong_me",
-  "description": "my first npm",
+  "name": "valecharging_com",
+  "description": "ValeCharing website",
   "main": "index.js",
   "authors": [
     "nebulashine <nebulashine.song@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/nebulashine/nebulashine.github.io",
+  "homepage": "https://github.com/ValeCharging/ValeCharging.github.io",
   "moduleType": [
     "node"
   ],
