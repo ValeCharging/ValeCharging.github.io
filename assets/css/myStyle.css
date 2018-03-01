@@ -34,7 +34,7 @@ html, body, input, select, textarea {
     /* The image used */
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/assets/img/background.jpg");
     
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
     /*
     height: 600px;
@@ -106,7 +106,7 @@ html, body, input, select, textarea {
 .grid-item-container img {
     object-fit: cover;
     width: auto;
-    height: 100px;
+    height: 150px;
 }
 
 /*
