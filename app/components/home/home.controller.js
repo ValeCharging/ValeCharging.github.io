@@ -8,7 +8,7 @@ myApp.controller('HomeController', ['$scope', '$timeout', function($scope, $time
     $scope.title = 'Door to Door Valet Charging';
     $scope.price = 'Only $8';
     $scope.slogan = 'Pick up and drop your EV fully charged at your home.';
-    $scope.contact_message = 'Call to make an appointment';
+    $scope.contact_message = 'Call or text to make an appointment';
     $scope.contact_number = '310-993-5426';
     
     // Texts for grid items.

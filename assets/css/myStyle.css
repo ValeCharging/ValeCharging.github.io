@@ -84,10 +84,14 @@ html, body, input, select, textarea {
 
 .header-title-container {
     margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .header-message-container {
     padding-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
