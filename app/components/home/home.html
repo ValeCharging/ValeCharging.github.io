@@ -1,38 +1,50 @@
 <!-- add navbar-->
+<!--
 <div ng-include src="'app/components/navbar/navbar.html'"></div>
+-->
 
 <!-- home.html -->
-<div class="bg jumbotron text-center">
-    <h1>{{ title }}</h1>
-
-    <p>{{ slogan }}</p>
+<div class="bg">
+    <div class="header-navbar">
+        <h3>{{ brandName }}</h3>
+        <p>{{ serviceArea }}</p>
+    </div>
     
-    <p>{{ contact_message }}</p>
-    <p>{{ contact_number }}</p>
+    <div class="header-title-container text-center">
+        <h1>{{ title }}</h1>
+        <h1>{{ price }}</h1>
+
+        <p>{{ slogan }}</p>
+    </div>
+    
+    <div class="header-message-container text-center">
+        <p>{{ contact_message }}</p>
+        <h1>{{ contact_number }}</h1>
+    </div>
 </div>
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-4 grid-item-container">
-          <img src="/assets/img/1.jpg" alt="Pick up car & key">
+        <div class="col-sm-4 grid-item-container text-center">
+          <img src="/assets/img/pickup.png" class="grid-img-1" alt="Pick up car & key">
 
-          <div class="text-center">
+          <div>
             <h2>{{ grid_item_title_1 }}</h2>
             <p>{{ grid_item_message_1 }}</p>
           </div>
         </div>
-        <div class="col-sm-4 grid-item-container">
-          <img src="/assets/img/2.jpg" alt="Pick up car & key">
+        <div class="col-sm-4 grid-item-container text-center">
+          <img src="/assets/img/paperwork.png" class="grid-img-2" alt="Pick up car & key">
 
-          <div class="text-center">
+          <div>
             <h2>{{ grid_item_title_2 }}</h2>
             <p>{{ grid_item_message_2 }}</p>
           </div>
         </div>
-        <div class="col-sm-4 grid-item-container">
-          <img src="/assets/img/3.jpg" alt="Pick up car & key">
+        <div class="col-sm-4 grid-item-container text-center">
+          <img src="/assets/img/delivery.png" class="grid-img-3" alt="Pick up car & key">
 
-          <div class="text-center">
+          <div>
             <h2>{{ grid_item_title_3 }}</h2>
             <p>{{ grid_item_message_3 }}</p>
           </div>
